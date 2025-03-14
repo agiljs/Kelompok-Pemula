@@ -1,0 +1,258 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0522b5; */
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    text-transform: capitalize;
+}
+.nav__links li a:hover{
+    color: #45a049;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+/* styling isi web */
+
+h1 {
+    color: aqua;
+}
+h2 {
+    color: red;
+}
+h3 {
+    color: blue;
+}
+h4 {
+    color: greenyellow;
+}
+h5 {
+    color: pink;
+}
+
+hr {
+    opacity: .28;
+}
+
+.elemenKedua2 {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 0 auto;
+    border-style: solid; width: 750px; height: 140px;
+}
+
+.elemenKedua2 h4 {
+    color: black;
+}
+
+.elemenKedua1 {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 0 auto;
+    border-style: solid; width: 750px; height: 295px;
+}
+
+.elemenKedua1 h4 {
+    color: black;
+}
+
+.elemenKedua {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 0 auto;
+    border-style: solid; width: 750px; height: 260px;
+}
+
+.elemenKedua h4 {
+    color: black;
+}
+
+.elemenUtama {
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    margin: 0 auto;
+    border-style: solid; width: 670px; height: 160px;
+}
+
+.elemenUtama h4 {
+    color: black;
+}
+
+.headingjudul, .jenis {
+    color: #000;
+}
+.headPengertianJaringan {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    margin: 0 auto;
+    border-style: solid; width: 670px; height: 170px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.container h4 {
+    color: black;
+    margin: auto;
+}
+
+.headingakhir {
+    color: black;
+}
+
+
+/* styling kontak */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container2 header h1 {
+    margin-left: 180px;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.contact-form,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
